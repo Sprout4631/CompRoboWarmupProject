@@ -20,6 +20,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'marker_publisher = comprobo_warmup_project.marker_publisher:main',
+            'odom_marker_publisher = comprobo_warmup_project.odom_marker_publisher:main',
+            'teleop = comprobo_warmup_project.teleop:main',
         ],
     },
 )
